@@ -29,6 +29,52 @@ padre_de(teresa,lucas).
 padre_de(rodolfo,martina).
 padre_de(teresa,martina).
 
+%Parte#2
+rivarica (hector, herrero).
+            (teresa, tejedora).
+            ( Clara, maestra).
+
+montelar ( catalina, curandera).
+        ( Felipe, explorador).
+        (Emilia, ceramista).
+
+Durania ( mateo, agricultor).
+        (irene, vendedora, Criadora).
+
+cultiva(mateo).
+cultiva(mateo,arroz).
+cultiva(mateo,maiz).
+
+cria(irene,cabra).
+
+vende(irene,rivoria).
+vende(leche,queso).
+
+%Parte #3
+alianzas(aldeas). 
+defenderse(aldeas, saqueadores).
+bajan(saqueadores, montañas).
+
+pacto_defensa(rivoria, durania).
+
+actuaba_solo(montelar).
+
+no_se_lleva_bien(rodolfo, felipe).
+acusa(felipe, rodolfo).
+acusa(robo).
+
+rival(clara, catalina).
+esposa(clara, andres).
+esposa(catalina, andres).
+
+%Parte#4
+creencias(fiesta_rio,rivoria)
+                 (ceremonia_luna,montelar)
+                 (feria_grano,durania)
+
+protectores(espiritu_del_agua,rivoria)
+                     (espiritu_de_la_montaña,montelar)
+                     (espiritu_de_la_tierra,durania)
 %Parte#5
 amenaza(saqueadores_montañosos).
 
