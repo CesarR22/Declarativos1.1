@@ -24,5 +24,6 @@ postorden(arbol(X, Izq, Der), L) :-
     append(L1, L2, L3),
     append(L3, [X], L).
 
+%consulta
 % arbol_nordico(_Arbol), postorden(_Arbol, L).
 
